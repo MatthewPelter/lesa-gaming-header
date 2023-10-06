@@ -1,0 +1,353 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="skateNav">
+    <ul>
+        <img src="https://s3.amazonaws.com/files.enjin.com/758993/modules/menu/25358898-SmallNavLogo5.png" alt="Mainlogo">
+        <li><a href="http://www.lesagaming.com/home"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#"><i class="material-icons">help</i>About</a>
+            <ul class="dropdownskate">
+                <li><a href="http://www.lesagaming.com/about">LESA Gaming</a></li>
+                <li><a href="http://www.lesagaming.com/lscp">The LSCP</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="material-icons">info</i>Information</a>
+            <ul class="dropdownskate">
+                <li><a href="http://www.lesagaming.com/rules">Server Rules</a></li>
+                <li><a href="http://www.lesagaming.com/csa">The Code of San Andreas</a></li>
+            </ul>
+        </li>
+        <li><a href="http://www.lesagaming.com/forums"><i class="material-icons">forum</i>Forums</a></li>
+        <li><a href="http://www.lesagaming.com/recruitment"><i class="material-icons">edit</i>Recruitment</a></li>
+        <li><a href="#"><i class="material-icons">photo</i>Media</a>
+            <ul class="dropdownskate">
+                <li><a href="http://www.lesagaming.com/image">Images</a></li>
+                <li><a href="https://www.facebook.com/LibertyCityPoliceDept"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.youtube.com/c/LibertyESA"><i class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a></li>
+                <li><a href="http://www.twitch.tv/libertyesa"><i class="fa fa-twitch" aria-hidden="true"></i> Twitch</a></li>
+                <li><a href="https://plus.google.com/u/0/107260537643271662588/posts"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a></li>
+                <li><a href="https://twitter.com/LESAGaming"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+            </ul>
+        </li>
+        
+        <div class="usersection">
+            <ul class="dropdownsection">
+                
+            </ul>
+        </div>
+    </ul>
+</div>
+
+<div class="skateheader">
+    <div class="heading">
+        <h1 class="skunder">Welcome to LESA Gaming</h1>
+        <h3 class="sidetxt">click to join</h3>
+        <a class="sk8btn" href="/recruitment">Apply</a>
+    </div>
+</div>
+
+<style type="text/css">
+    .skateheader {
+        background: url('http://media.gtanet.com/gta-5/images/content/gta-v-setting-los-santos.jpg');
+        height: 350px;
+        background-position: 50%;
+        background-size: cover;
+        width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #eee;
+        font-family: 'Montserrat';
+        text-align: center;
+        border-bottom: 5px solid #3498db;
+    }
+    
+    .skunder {
+        position: relative;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .skunder:after {
+        content: '';
+        height: 3px;
+        width: 80%;
+        background: #3498db;
+        position: absolute;
+        bottom: 0;
+        margin: 0 auto;
+        z-index: 1;
+        left: 0;
+        right: 0;
+    }
+    
+    .sidetxt {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .skateheader a {
+        display: block;
+        text-decoration: none;
+        color: #eee;
+        background: #3498db;
+        width: 20%;
+        margin: 0 auto;
+        padding: 5px 0;
+        border-radius: 50px;
+        transition: 200ms all ease-in-out;
+    }
+    
+    .skateheader a:hover {
+        background: #7590ff;
+    }
+</style>
+
+<style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: #111;
+    }
+    
+    .skateNav {
+        background: #222; 
+        width: 100%;
+        position: relative;
+    }
+    
+    .skateNav ul{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .skateNav ul li {
+        display: inline-block;
+    }
+    
+    .skateNav ul li a {
+        display: block;
+        color: #eee;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        padding: 20px 10px;
+        transition: 200ms all ease-in-out;
+        position: relative;
+    }
+    
+    .skateNav ul li i {
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .skateNav > ul > li > a:hover {
+        background: #3498db;
+    }
+    
+    .skateNav img {
+        position: absolute;
+        left: 10px;
+        padding: 20px 0 0 5px;
+    }
+    
+    .skateNav .usersection {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        font-family: 'Montserrat';
+        color: #eee;
+    }
+    
+    .skateNav ul li ul {
+        position: absolute;
+        background: #222;
+        display: none;
+        border-bottom: 2px solid #3498db;
+        -webkit-box-shadow: -1px 0px 8px 2px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 0px 8px 2px rgba(0,0,0,0.75);
+        box-shadow: -1px 0px 8px 2px rgba(0,0,0,0.75);
+        z-index: 999999999;
+    }
+    
+    .skateNav ul li ul li {
+        display: block;
+        text-align: left;
+    }
+    
+    .skateNav ul li ul li i {
+        display: inline-block;
+    }
+    
+    .skateNav ul li:hover ul {
+        display: block;
+    }
+    
+    .skateNav ul li ul li a:hover {
+        color: #3498db;
+    }
+    
+    #enjin-bar, #page-footer {
+        display: none !important;
+    }
+    
+    .container.with-header .container_header {
+        height: 50px !important;
+        background: #222;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px;
+        border-bottom: 2px solid #3498db;
+    }
+    
+    .container.with-header .container_header .header_text_text {
+        font-family: 'Montserrat' !important;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 15px !important;
+        color: #3498db !important;
+        text-transform: uppercase !important;
+    }
+    
+    .container_header .mask {
+        margin: 0 !important;
+    }
+    
+    .container_body {
+        background: #292929 !important;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 12px;
+    }
+    
+    #section-header, #section-footer {
+        display: none;
+    }
+    
+    .container.with-header .container_header .left, .container.with-header .container_header .right {
+        background: none !important;
+    }
+    
+    #site-body {
+        margin-top: -40px !important;
+    }
+    
+    a {
+        color: #3498db;
+        transition: 200ms all ease-in-out;
+        text-decoration: none !important;
+    }
+    
+    a:hover {
+        color: #4eaeef;
+    }
+    
+    .section-divider {
+        width: 10px !important;
+    }
+    
+    body > .user_tray_inner, body > #enjin-tray-messaging {
+        background-color: #222 !important;
+    }
+    
+    .m_eventsmini .mini-calendar td.day-other {
+        background-color: #222 !important;
+    }
+    
+    .m_eventsmini .mini-calendar td.day {
+        color: #d6d6d6 !important;
+    }
+    
+    .m_eventsmini .mini-calendar td.day.current div {
+        background-color: #444 !important;
+        color: #d6d6d6 !important;
+    }
+    
+    .element_popup .inner {
+        background-color: #333 !important;
+    }
+    
+    .element_smalltitle .left, .element_smalltitle .right {
+        background: none !important;
+    }
+    
+    .element_smalltitle {
+        background: #222 !important;
+        border-radius: 2px;
+    }
+    
+    .element_avatar.large img {
+        border-radius: 50px;
+        border: 2px solid #3498db;
+        box-shadow: #00000073 0px 2px 8px;
+    }
+    
+    .links .usermenu-item {
+        display: inline-block;
+    }
+    
+    .links .usermenu-item a {
+        background: #3498db;
+        color: #eee !important;
+        font-size: 15px !important;
+        font-family: 'Montserrat' !important;
+        padding: 5px;
+        margin: 0 5px !important;
+        display: block;
+    }
+    
+    .m_login.loggedin.login-main .left-block {
+        text-align: center !important;
+        float: none !important;
+    }
+    
+    .login-main .username a {
+        text-align: center !important;
+        display: block;
+        font-family: 'Montserrat';
+    }
+    
+    .iconny {
+        float: right;
+        margin-top: -5px;
+    }
+    
+    .usersection {
+        padding: 20px 0;
+        position: relative;
+    }
+    
+    .usersection .dropdownsection {
+        background: #222;
+        position:absolute;
+    }
+</style>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $('.skateheader').prependTo('.body-wrap-3');
+    $('.skateNav').prependTo('body');
+    
+    /*
+    var username = $('#enjin-bar span.element_username').text();
+    var adminstatus=$('#enjin-bar .left a[href$=\"/admin\"]').text();
+    
+    if (username == '') {
+        $('.usersection').prepend("<li><a href=\"/login\">Login</a></li>");
+        $('.usersection').prepend("<li><a href=\"/register\">Register</a></li>");
+    } else {
+        $('.usersection').prepend(username+"<i class=\"material-icons iconny\">keyboard_arrow_down</b>");
+    }
+    
+    if (adminstatus == ''){
+
+    }else{
+
+    $(".usersection >.dropdownsection").append("<li><a href=\"/admin\">Admin</a></li>");
+
+    }
+    */
+ });
+</script>
